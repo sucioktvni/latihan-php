@@ -1,11 +1,12 @@
 <?php
-$no=5;
-for($a=$no; $a>0;$a--) {
-    for($i=1; $i<=$a; $i++) {
-        echo "&nbsp";
-    }
-    for($a1=$no;$a1>=$a;$a1--) {
-        echo"*";
-    }
+
+$a=3;
+$j=3;
+for($i = 1;$i <= 10;$i++){
     echo "<br>";
+    for($k=$a;$k <= $j; $k++){
+    echo " $k ";   
+    }
+    $a += 2;
+    $j += 3;
 }
